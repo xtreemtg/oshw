@@ -97,7 +97,7 @@ ssize_t procfile_write(struct file *filp, const char __user *buf, size_t count, 
     }
 	int i;
 	while(i < 80){
-		page2[i] = i;
+		page2[i] = "";
 		i++;
 	}
 	strcpy(page2, page); 
